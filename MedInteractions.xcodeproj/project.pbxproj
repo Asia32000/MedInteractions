@@ -7,18 +7,89 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		995CB08A297D9A770048FA03 /* PillsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB089297D9A770048FA03 /* PillsViewModel.swift */; };
+		995CB08C297D9AAE0048FA03 /* PillsInteractionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB08B297D9AAE0048FA03 /* PillsInteractionsView.swift */; };
+		995CB08E297D9AC40048FA03 /* PillsInteractionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB08D297D9AC40048FA03 /* PillsInteractionsViewModel.swift */; };
+		995CB090297D9B250048FA03 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB08F297D9B250048FA03 /* Date+Extensions.swift */; };
+		995CB093297D9D1C0048FA03 /* FirstPageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB092297D9D1C0048FA03 /* FirstPageViewModel.swift */; };
+		995CB095297D9FAC0048FA03 /* AnyTransition+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB094297D9FAC0048FA03 /* AnyTransition+Extensions.swift */; };
+		995CB0A4297DA80A0048FA03 /* Medication+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB0A2297DA80A0048FA03 /* Medication+CoreDataClass.swift */; };
+		995CB0A5297DA80A0048FA03 /* Medication+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995CB0A3297DA80A0048FA03 /* Medication+CoreDataProperties.swift */; };
+		995CB0AB297DAB4F0048FA03 /* OldStandardTT-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995CB0AA297DAABD0048FA03 /* OldStandardTT-Regular.ttf */; };
+		995CB0AC297DAB520048FA03 /* OldStandardTT-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995CB0A9297DAAB80048FA03 /* OldStandardTT-Italic.ttf */; };
+		995CB0AD297DAB540048FA03 /* OldStandardTT-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 995CB0A8297DAAB20048FA03 /* OldStandardTT-Bold.ttf */; };
 		99DE9A14297D764D00C9974C /* MedInteractionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A13297D764D00C9974C /* MedInteractionsApp.swift */; };
 		99DE9A16297D764D00C9974C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A15297D764D00C9974C /* ContentView.swift */; };
 		99DE9A18297D764E00C9974C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DE9A17297D764E00C9974C /* Assets.xcassets */; };
 		99DE9A1B297D764E00C9974C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99DE9A1A297D764E00C9974C /* Preview Assets.xcassets */; };
+		99DE9A22297D790300C9974C /* FirstPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A21297D790300C9974C /* FirstPageView.swift */; };
+		99DE9A24297D791300C9974C /* PillsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A23297D791300C9974C /* PillsView.swift */; };
+		99DE9A26297D792100C9974C /* PhotosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A25297D792100C9974C /* PhotosView.swift */; };
+		99DE9A28297D793300C9974C /* InteractionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A27297D793300C9974C /* InteractionsView.swift */; };
+		99DE9A2A297D797F00C9974C /* Image+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A29297D797F00C9974C /* Image+Extensions.swift */; };
+		99DE9A2C297D7D1100C9974C /* SingleMedicationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A2B297D7D1100C9974C /* SingleMedicationView.swift */; };
+		99DE9A2E297D7D3400C9974C /* TwoMedicationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A2D297D7D3400C9974C /* TwoMedicationsView.swift */; };
+		99DE9A31297D7D7800C9974C /* InteractionsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A30297D7D7800C9974C /* InteractionsViewModel.swift */; };
+		99DE9A34297D7E1100C9974C /* FindRxcuiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A33297D7E1100C9974C /* FindRxcuiService.swift */; };
+		99DE9A36297D7E3500C9974C /* NormResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A35297D7E3500C9974C /* NormResponse.swift */; };
+		99DE9A38297D7E6700C9974C /* InteractionsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A37297D7E6700C9974C /* InteractionsService.swift */; };
+		99DE9A3A297D7E8200C9974C /* InteractionsFromListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A39297D7E8200C9974C /* InteractionsFromListService.swift */; };
+		99DE9A3C297D7EA300C9974C /* InteractionsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A3B297D7EA300C9974C /* InteractionsResponse.swift */; };
+		99DE9A3E297D7EBE00C9974C /* InteractionsFromListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A3D297D7EBE00C9974C /* InteractionsFromListResponse.swift */; };
+		99DE9A40297D7F2800C9974C /* DrugInteractionsCheckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A3F297D7F2800C9974C /* DrugInteractionsCheckerView.swift */; };
+		99DE9A42297D7F5800C9974C /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A41297D7F5800C9974C /* Color+Extensions.swift */; };
+		99DE9A44297D7F8700C9974C /* View+Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A43297D7F8700C9974C /* View+Keyboard.swift */; };
+		99DE9A46297D7FAD00C9974C /* TextFieldClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A45297D7FAD00C9974C /* TextFieldClearButton.swift */; };
+		99DE9A49297D810800C9974C /* PhotosViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A48297D810800C9974C /* PhotosViewModel.swift */; };
+		99DE9A4C297D816D00C9974C /* MedInteractionsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A4A297D816D00C9974C /* MedInteractionsModel.xcdatamodeld */; };
+		99DE9A4F297D81E900C9974C /* Photo+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A4D297D81E900C9974C /* Photo+CoreDataClass.swift */; };
+		99DE9A50297D81E900C9974C /* Photo+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A4E297D81E900C9974C /* Photo+CoreDataProperties.swift */; };
+		99DE9A53297D826B00C9974C /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A52297D826B00C9974C /* String+Extensions.swift */; };
+		99DE9A56297D833100C9974C /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE9A55297D833100C9974C /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		995CB089297D9A770048FA03 /* PillsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsViewModel.swift; sourceTree = "<group>"; };
+		995CB08B297D9AAE0048FA03 /* PillsInteractionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsInteractionsView.swift; sourceTree = "<group>"; };
+		995CB08D297D9AC40048FA03 /* PillsInteractionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsInteractionsViewModel.swift; sourceTree = "<group>"; };
+		995CB08F297D9B250048FA03 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		995CB092297D9D1C0048FA03 /* FirstPageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewModel.swift; sourceTree = "<group>"; };
+		995CB094297D9FAC0048FA03 /* AnyTransition+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyTransition+Extensions.swift"; sourceTree = "<group>"; };
+		995CB0A2297DA80A0048FA03 /* Medication+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medication+CoreDataClass.swift"; sourceTree = "<group>"; };
+		995CB0A3297DA80A0048FA03 /* Medication+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Medication+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		995CB0A6297DAA420048FA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		995CB0A8297DAAB20048FA03 /* OldStandardTT-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandardTT-Bold.ttf"; sourceTree = "<group>"; };
+		995CB0A9297DAAB80048FA03 /* OldStandardTT-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandardTT-Italic.ttf"; sourceTree = "<group>"; };
+		995CB0AA297DAABD0048FA03 /* OldStandardTT-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "OldStandardTT-Regular.ttf"; sourceTree = "<group>"; };
 		99DE9A10297D764D00C9974C /* MedInteractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedInteractions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99DE9A13297D764D00C9974C /* MedInteractionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedInteractionsApp.swift; sourceTree = "<group>"; };
 		99DE9A15297D764D00C9974C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		99DE9A17297D764E00C9974C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99DE9A1A297D764E00C9974C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		99DE9A21297D790300C9974C /* FirstPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageView.swift; sourceTree = "<group>"; };
+		99DE9A23297D791300C9974C /* PillsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PillsView.swift; sourceTree = "<group>"; };
+		99DE9A25297D792100C9974C /* PhotosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosView.swift; sourceTree = "<group>"; };
+		99DE9A27297D793300C9974C /* InteractionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionsView.swift; sourceTree = "<group>"; };
+		99DE9A29297D797F00C9974C /* Image+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Image+Extensions.swift"; sourceTree = "<group>"; };
+		99DE9A2B297D7D1100C9974C /* SingleMedicationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleMedicationView.swift; sourceTree = "<group>"; };
+		99DE9A2D297D7D3400C9974C /* TwoMedicationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoMedicationsView.swift; sourceTree = "<group>"; };
+		99DE9A30297D7D7800C9974C /* InteractionsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionsViewModel.swift; sourceTree = "<group>"; };
+		99DE9A33297D7E1100C9974C /* FindRxcuiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindRxcuiService.swift; sourceTree = "<group>"; };
+		99DE9A35297D7E3500C9974C /* NormResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormResponse.swift; sourceTree = "<group>"; };
+		99DE9A37297D7E6700C9974C /* InteractionsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionsService.swift; sourceTree = "<group>"; };
+		99DE9A39297D7E8200C9974C /* InteractionsFromListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionsFromListService.swift; sourceTree = "<group>"; };
+		99DE9A3B297D7EA300C9974C /* InteractionsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionsResponse.swift; sourceTree = "<group>"; };
+		99DE9A3D297D7EBE00C9974C /* InteractionsFromListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionsFromListResponse.swift; sourceTree = "<group>"; };
+		99DE9A3F297D7F2800C9974C /* DrugInteractionsCheckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrugInteractionsCheckerView.swift; sourceTree = "<group>"; };
+		99DE9A41297D7F5800C9974C /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		99DE9A43297D7F8700C9974C /* View+Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Keyboard.swift"; sourceTree = "<group>"; };
+		99DE9A45297D7FAD00C9974C /* TextFieldClearButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldClearButton.swift; sourceTree = "<group>"; };
+		99DE9A48297D810800C9974C /* PhotosViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewModel.swift; sourceTree = "<group>"; };
+		99DE9A4B297D816D00C9974C /* MedInteractionsModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedInteractionsModel.xcdatamodel; sourceTree = "<group>"; };
+		99DE9A4D297D81E900C9974C /* Photo+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataClass.swift"; sourceTree = "<group>"; };
+		99DE9A4E297D81E900C9974C /* Photo+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Photo+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		99DE9A52297D826B00C9974C /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		99DE9A55297D833100C9974C /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,9 +103,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		995CB088297D9A6A0048FA03 /* Pills */ = {
+			isa = PBXGroup;
+			children = (
+				99DE9A23297D791300C9974C /* PillsView.swift */,
+				995CB089297D9A770048FA03 /* PillsViewModel.swift */,
+				995CB08B297D9AAE0048FA03 /* PillsInteractionsView.swift */,
+				995CB08D297D9AC40048FA03 /* PillsInteractionsViewModel.swift */,
+			);
+			path = Pills;
+			sourceTree = "<group>";
+		};
+		995CB091297D9D0D0048FA03 /* FirstPage */ = {
+			isa = PBXGroup;
+			children = (
+				99DE9A21297D790300C9974C /* FirstPageView.swift */,
+				995CB092297D9D1C0048FA03 /* FirstPageViewModel.swift */,
+			);
+			path = FirstPage;
+			sourceTree = "<group>";
+		};
+		995CB0A7297DAAA30048FA03 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				995CB0AA297DAABD0048FA03 /* OldStandardTT-Regular.ttf */,
+				995CB0A9297DAAB80048FA03 /* OldStandardTT-Italic.ttf */,
+				995CB0A8297DAAB20048FA03 /* OldStandardTT-Bold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		99DE9A07297D764D00C9974C = {
 			isa = PBXGroup;
 			children = (
+				995CB0A2297DA80A0048FA03 /* Medication+CoreDataClass.swift */,
+				995CB0A3297DA80A0048FA03 /* Medication+CoreDataProperties.swift */,
+				99DE9A4D297D81E900C9974C /* Photo+CoreDataClass.swift */,
+				99DE9A4E297D81E900C9974C /* Photo+CoreDataProperties.swift */,
+				99DE9A4A297D816D00C9974C /* MedInteractionsModel.xcdatamodeld */,
 				99DE9A12297D764D00C9974C /* MedInteractions */,
 				99DE9A11297D764D00C9974C /* Products */,
 			);
@@ -51,10 +157,20 @@
 		99DE9A12297D764D00C9974C /* MedInteractions */ = {
 			isa = PBXGroup;
 			children = (
+				995CB0A7297DAAA30048FA03 /* Fonts */,
+				995CB0A6297DAA420048FA03 /* Info.plist */,
+				995CB091297D9D0D0048FA03 /* FirstPage */,
+				995CB088297D9A6A0048FA03 /* Pills */,
+				99DE9A54297D832600C9974C /* Data */,
+				99DE9A51297D824D00C9974C /* Extensions */,
+				99DE9A47297D80F700C9974C /* Photos */,
+				99DE9A32297D7DF300C9974C /* Networking */,
+				99DE9A2F297D7D4700C9974C /* Interactions */,
 				99DE9A13297D764D00C9974C /* MedInteractionsApp.swift */,
 				99DE9A15297D764D00C9974C /* ContentView.swift */,
 				99DE9A17297D764E00C9974C /* Assets.xcassets */,
 				99DE9A19297D764E00C9974C /* Preview Content */,
+				99DE9A45297D7FAD00C9974C /* TextFieldClearButton.swift */,
 			);
 			path = MedInteractions;
 			sourceTree = "<group>";
@@ -65,6 +181,61 @@
 				99DE9A1A297D764E00C9974C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		99DE9A2F297D7D4700C9974C /* Interactions */ = {
+			isa = PBXGroup;
+			children = (
+				99DE9A2D297D7D3400C9974C /* TwoMedicationsView.swift */,
+				99DE9A2B297D7D1100C9974C /* SingleMedicationView.swift */,
+				99DE9A27297D793300C9974C /* InteractionsView.swift */,
+				99DE9A30297D7D7800C9974C /* InteractionsViewModel.swift */,
+				99DE9A3F297D7F2800C9974C /* DrugInteractionsCheckerView.swift */,
+			);
+			path = Interactions;
+			sourceTree = "<group>";
+		};
+		99DE9A32297D7DF300C9974C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				99DE9A33297D7E1100C9974C /* FindRxcuiService.swift */,
+				99DE9A35297D7E3500C9974C /* NormResponse.swift */,
+				99DE9A37297D7E6700C9974C /* InteractionsService.swift */,
+				99DE9A39297D7E8200C9974C /* InteractionsFromListService.swift */,
+				99DE9A3B297D7EA300C9974C /* InteractionsResponse.swift */,
+				99DE9A3D297D7EBE00C9974C /* InteractionsFromListResponse.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		99DE9A47297D80F700C9974C /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				99DE9A25297D792100C9974C /* PhotosView.swift */,
+				99DE9A48297D810800C9974C /* PhotosViewModel.swift */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		99DE9A51297D824D00C9974C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				99DE9A29297D797F00C9974C /* Image+Extensions.swift */,
+				99DE9A41297D7F5800C9974C /* Color+Extensions.swift */,
+				99DE9A43297D7F8700C9974C /* View+Keyboard.swift */,
+				99DE9A52297D826B00C9974C /* String+Extensions.swift */,
+				995CB08F297D9B250048FA03 /* Date+Extensions.swift */,
+				995CB094297D9FAC0048FA03 /* AnyTransition+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		99DE9A54297D832600C9974C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				99DE9A55297D833100C9974C /* DataController.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +296,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				995CB0AD297DAB540048FA03 /* OldStandardTT-Bold.ttf in Resources */,
 				99DE9A1B297D764E00C9974C /* Preview Assets.xcassets in Resources */,
+				995CB0AB297DAB4F0048FA03 /* OldStandardTT-Regular.ttf in Resources */,
 				99DE9A18297D764E00C9974C /* Assets.xcassets in Resources */,
+				995CB0AC297DAB520048FA03 /* OldStandardTT-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +311,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99DE9A49297D810800C9974C /* PhotosViewModel.swift in Sources */,
+				99DE9A36297D7E3500C9974C /* NormResponse.swift in Sources */,
 				99DE9A16297D764D00C9974C /* ContentView.swift in Sources */,
+				995CB095297D9FAC0048FA03 /* AnyTransition+Extensions.swift in Sources */,
+				99DE9A24297D791300C9974C /* PillsView.swift in Sources */,
+				99DE9A40297D7F2800C9974C /* DrugInteractionsCheckerView.swift in Sources */,
+				99DE9A26297D792100C9974C /* PhotosView.swift in Sources */,
+				99DE9A50297D81E900C9974C /* Photo+CoreDataProperties.swift in Sources */,
+				99DE9A4F297D81E900C9974C /* Photo+CoreDataClass.swift in Sources */,
+				995CB08C297D9AAE0048FA03 /* PillsInteractionsView.swift in Sources */,
+				99DE9A2E297D7D3400C9974C /* TwoMedicationsView.swift in Sources */,
+				995CB08E297D9AC40048FA03 /* PillsInteractionsViewModel.swift in Sources */,
+				99DE9A44297D7F8700C9974C /* View+Keyboard.swift in Sources */,
+				99DE9A3C297D7EA300C9974C /* InteractionsResponse.swift in Sources */,
+				99DE9A56297D833100C9974C /* DataController.swift in Sources */,
+				995CB0A4297DA80A0048FA03 /* Medication+CoreDataClass.swift in Sources */,
+				99DE9A2A297D797F00C9974C /* Image+Extensions.swift in Sources */,
+				99DE9A28297D793300C9974C /* InteractionsView.swift in Sources */,
+				995CB0A5297DA80A0048FA03 /* Medication+CoreDataProperties.swift in Sources */,
+				995CB093297D9D1C0048FA03 /* FirstPageViewModel.swift in Sources */,
+				99DE9A34297D7E1100C9974C /* FindRxcuiService.swift in Sources */,
+				99DE9A22297D790300C9974C /* FirstPageView.swift in Sources */,
+				99DE9A53297D826B00C9974C /* String+Extensions.swift in Sources */,
+				99DE9A42297D7F5800C9974C /* Color+Extensions.swift in Sources */,
+				99DE9A38297D7E6700C9974C /* InteractionsService.swift in Sources */,
+				99DE9A3E297D7EBE00C9974C /* InteractionsFromListResponse.swift in Sources */,
+				995CB090297D9B250048FA03 /* Date+Extensions.swift in Sources */,
+				99DE9A3A297D7E8200C9974C /* InteractionsFromListService.swift in Sources */,
+				99DE9A31297D7D7800C9974C /* InteractionsViewModel.swift in Sources */,
+				99DE9A46297D7FAD00C9974C /* TextFieldClearButton.swift in Sources */,
 				99DE9A14297D764D00C9974C /* MedInteractionsApp.swift in Sources */,
+				99DE9A2C297D7D1100C9974C /* SingleMedicationView.swift in Sources */,
+				99DE9A4C297D816D00C9974C /* MedInteractionsModel.xcdatamodeld in Sources */,
+				995CB08A297D9A770048FA03 /* PillsViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +476,8 @@
 				DEVELOPMENT_TEAM = MYU5QC2Q2V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedInteractions/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +507,8 @@
 				DEVELOPMENT_TEAM = MYU5QC2Q2V;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedInteractions/Info.plist;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "We need to unlock your data.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,6 +549,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		99DE9A4A297D816D00C9974C /* MedInteractionsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				99DE9A4B297D816D00C9974C /* MedInteractionsModel.xcdatamodel */,
+			);
+			currentVersion = 99DE9A4B297D816D00C9974C /* MedInteractionsModel.xcdatamodel */;
+			path = MedInteractionsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 99DE9A08297D764D00C9974C /* Project object */;
 }
